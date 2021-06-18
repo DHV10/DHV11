@@ -34,7 +34,9 @@ struct ContentView: View {
                     Text("SwiftUI Slots").foregroundColor(.white)
                     
                     Image(systemName: "star.fill").foregroundColor(.yellow)
-                }.scaleEffect(2.5)
+                }
+                .padding()
+                .scaleEffect(2)
                 Spacer()
                 //credits counter
                 Text("Credits: " + String(credits) ).foregroundColor(.black)
